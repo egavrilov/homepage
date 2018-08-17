@@ -1,4 +1,4 @@
 serve:
-	jekyll s
+	bundle exec jekyll s
 deploy:
-	jekill build
+	bundle exec jekill build
