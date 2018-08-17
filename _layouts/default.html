@@ -5,12 +5,14 @@
 
   <body class="theme-base-{{site.color-scheme}}">
 
+    {% comment %}
     <!-- This if statement decides which sidebar to use -->
     {% if page.toc %}
     {% include sidebar-toc.html %}
     {% else %}
     {% include sidebar.html %}
     {% endif %}
+    {% endcomment %}
 
 
 
@@ -30,7 +32,7 @@
       </div>
     </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    {% comment %}<label for="sidebar-checkbox" class="sidebar-toggle"></label> {% endcomment %}
 
     <script>
 
