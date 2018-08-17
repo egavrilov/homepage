@@ -52,6 +52,6 @@ exclude:
   - vendor
 
 # Theme
-theme: "ed."
+theme: jekyll-theme-dinky
 
 
