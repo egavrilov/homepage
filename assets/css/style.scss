@@ -11,9 +11,9 @@ sitemap: false
 
 /* FONTS */
 
-$main-font: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-$heading-font: sans-serif;
-$regular-font-size: 20px;
+$main-font: initial;
+$heading-font: initial;
+$regular-font-size: x-large;
 
 /* 
 * COLOR.
@@ -22,15 +22,11 @@ $regular-font-size: 20px;
 * 
 */
 
-$text-color: #454545;
+$text-color: #333300;
 $heading-color: #404040;
-$link-color: #841212;
+$link-color: #006C6A;
 
 
 @import "ed";
 @import "syntax";
-
-
-
-
-
+@import "custom";

@@ -1,0 +1,43 @@
+/*
+
+Palette:
+#333300 - black
+#42661D - green
+#005655 - blue
+
+*/
+a {
+  transition: color 150ms;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #005655;
+}
+
+.sidebar {
+  background-color: #005655;
+  height: 100%;
+  overflow: hidden;
+}
+
+.sidebar-scrollable {
+  width: 100%;
+  height: 99%;
+  padding-right: 15px;
+  box-sizing: content-box;
+  overflow: auto;
+}
+
+.sidebar a:hover {
+  color: #eeeeff;
+}
+
+blockquote.right {
+  text-align: right;
+  padding-left: 5rem;
+  padding-right: 1.25rem;
+}
+.text-title h2 {
+  margin: 0;
+}

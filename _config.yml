@@ -1,17 +1,22 @@
 # Built with Jekyll 3.2.0
 
-# Setup
-title:               Ed.
-tagline:             'a jekyll theme for minimal editions'
-description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
-url:                 'http://minicomp.github.io'
-baseurl:             '/ed'
+title: Eugene Gavrilov
+subtitle: Frontend Engineer
+email: eugene@huncode.com
+#description: |- # this means to ignore newlines until "baseurl:"
+#  Source for sharing frontend projects and ideas.
+#  Hire Senior Frontend Engineer for your rockstar UI project.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://huncode.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: huncoder
+github_username:  huncode
+# tagline: 'a jekyll theme for minimal editions'
 
 # About/contact
 author:
-  name:              Alex Gil
-  url:               https://twitter.com/elotroalex
-  email:             colibri.alex@gmail.com
+  name:              Eugene Gavrilov
+  url:               https://twitter.com/huncoder
+  email:             eugene@huncode.com
 
 # Permalinks
 

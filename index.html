@@ -1,28 +1,36 @@
 ---
 layout: default
-title: "Ed."
 ---
 <div class="introduction">
-  <h1>hi.</h1>
+  <blockquote class="right">Any fool can write code that a computer can understand.<br/>Good programmers write code that humans can understand.<br/>&mdash; Martin Fowler</blockquote>
+  <h1>Hello.</h1>
+  <small>
+    Before should be introduced as a Frontend Developer with 6 years experience
+    there are few things to say. Assigned the title of a Developer since 2006 when
+    successfully launched the first website of my hometown (news aggregator and
+    forum board). The website was built from blocks: Website CMS <em>«PHP-Fusion»</em>,
+    forum software <em>«punBB»</em>, a number of plugins and scripts available for free use (time before GitHub was hard to search and share opensource projects). Building software from blocks was a good start to Develop, but <strong>Engineering</strong> is a way better!
+  </small>
+  <p>
 
-<p>Ed is a <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> theme designed for textual editors based on <a href="http://go-dh.github.io/mincomp/">minimal computing principles</a>, and focused on legibility, durability, ease and flexibility. Our underlying technology is easy to learn and teach, and can produce beautifully rendered scholarly or reading editions of texts meant to last. To start using Ed, please see <a href="{{ site.baseurl }}/documentation/">our documentation</a> for installation instructions and more. To learn more about the ideas behind Ed and a list of current features see our <a href="{{ site.baseurl }}/about/">about</a> section. To see Ed in action, we've provided some sample minimal editions for you below.</p>
+  </p>
 </div>
 
 <hr>
 
 <div class="toc">
-  <h2>sample texts</h2>
+  <h2>Publications</h2>
   <ul class="texts">
-  {% for item in site.texts %}
+  {% assign texts = site.texts | sort: 'date' | reverse %}
+  {% for item in texts %}
   
     <li class="text-title">
-      <a href="{{ site.baseurl }}{{ item.url }}">
-        {{ item.title }}
-      </a>
+      <h2>
+        <a href="{{ site.baseurl }}{{ item.url }}">
+          {{ item.title }}
+        </a>
+      </h2>
     </li>
   {% endfor %}
   </ul>
 </div>
-
-
-
